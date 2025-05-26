@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Global Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #ff5f6d, #ffc371);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        header img {
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .hero {
+            background: radial-gradient(circle at center, #ffecd2 0%, #fcb69f 100%), url('https://www.transparenttextures.com/patterns/diagmonds-light.png');
+            background-blend-mode: overlay;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .cta-button {
+            background: linear-gradient(to right, #00f260, #0575e6);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.2em;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+            min-width: 250px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        .feature img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+        .feature h3 {
+            color: #ff6f61;
+            font-weight: 600;
+        }
+        .form-embed {
+            background: #fff;
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #43cea2, #185a9d);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<style>
+#sidebarToggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10001;
+    background: #11998e;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#topEmail {
+    position: fixed;
+    top: 22px;
+    right: 20px;
+    z-index: 10001;
+    font-size: 16px;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+#sidebarMenu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #2c3e50;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 10000;
+}
+
+#sidebarMenu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebarMenu a:hover {
+    background-color: #575757;
+}
+
+#mainContent {
+    transition: margin-left 0.5s;
+}
+</style>
+<script>
+function toggleSidebar() {
+    var menu = document.getElementById("sidebarMenu");
+    if (menu.style.left === "-250px") {
+        menu.style.left = "0";
+    } else {
+        menu.style.left = "-250px";
+    }
+}
+</script>
+<button id="sidebarToggle" onclick="toggleSidebar()">☰ Menu</button>
+<div id="topEmail">
+<span>📧 <strong>Contact us:</strong> contactglobalacademyetawah@gmail.com</span>
+</div>
+<div id="sidebarMenu">
+<a href="#home">Home</a>
+<a href="about_extended.html">About</a>
+<a href="final_courses_full_footer.html">Courses</a>
+<a href="#signup">Admissions</a>
+<a href="#contact">Contact</a>
+</div>
+<style>
+#sidebarToggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10001;
+    background: #11998e;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sidebarMenu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #2c3e50;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 10000;
+}
+
+#sidebarMenu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebarMenu a:hover {
+    background-color: #575757;
+}
+
+#mainContent {
+    transition: margin-left 0.5s;
+}
+</style>
+<script>
+function toggleSidebar() {
+    var menu = document.getElementById("sidebarMenu");
+    if (menu.style.left === "-250px") {
+        menu.style.left = "0";
+    } else {
+        menu.style.left = "-250px";
+    }
+}
+</script>
+<div style="height: 70px;"></div> <!-- Spacer to offset fixed nav -->
+<header id="home">
+<img alt="Global Academy Logo" src="./global_academy_logo.png"/>
+<h1>The Global Academy</h1>
+<p>Founded by Sachin Bhaduriya</p>
+</header>
+<div style="text-align: center; padding: 30px 20px; background: linear-gradient(to right, #00c6ff, #fbd786);">
+<h2 style="color: #333;">Welcome to a Place of Learning &amp; Joy</h2>
+<img alt="Indian Child" src="https://images.unsplash.com/photo-1624715395202-7587dbfb06ad?auto=format&amp;fit=crop&amp;w=800&amp;q=80" style="width: 300px; border-radius: 16px; margin-top: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+</div>
+<div class="hero">
+<h1>Unlock Your Potential</h1>
+<p>Join us for personalized coaching and mentorship!</p>
+<button class="cta-button" onclick="document.getElementById('signup').scrollIntoView({ behavior: 'smooth' })">Enroll Now</button>
+<p>Contact: 8979696165</p>
+</div>
+<div class="features" id="features">
+<div class="feature">
+<img alt="Mentorship Icon" src="https://img.icons8.com/fluency/96/personal-growth.png"/>
+<h3>Personalized Mentorship</h3>
+<p>Get tailored guidance to meet your unique learning needs.</p>
+</div>
+<div class="feature">
+<img alt="One-on-One Icon" src="https://img.icons8.com/fluency/96/one-to-one.png"/>
+<h3>One-on-One Guidance</h3>
+<p>Receive individual attention from experienced mentors.</p>
+</div>
+<div class="feature">
+<img alt="Small Batch Icon" src="https://img.icons8.com/fluency/96/classroom.png"/>
+<h3>Small Batch Sizes</h3>
+<p>Coaching speciality with only 25 students per batch.</p>
+</div>
+</div>
+<div style="text-align: center; padding: 40px 20px; background: linear-gradient(to right, #fdfbfb, #ebedee);">
+<div style="text-align: center; padding: 40px 20px; background: linear-gradient(to right, #fdfbfb, #ebedee); max-width: 700px; margin: auto;">
+<h2 style="color: #2c3e50;">Meet Our Director</h2>
+<img alt="Director of Global Academy" src="./director_global_academy.png" style="max-width: 100%; width: 300px; height: auto; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); margin-top: 20px;"/><div style="margin-top: 20px; font-style: italic; font-size: 1.1em; color: #2c3e50;">“At The Global Academy, we don’t just teach — we guide, mentor, and empower every student to achieve greatness.” — Sachin Bhaduriya, Director</div>
+<p style="font-size: 1.1em; color: #555; max-width: 600px; margin: 20px auto;">
+        Our esteemed Director is the guiding force behind The Global Academy, shaping futures with passion and purpose.
+    </p>
+</div>
+<div class="form-embed" id="signup">
+<h2 style="text-align: center;">Sign Up Now</h2>
+<iframe allowfullscreen="" src="https://docs.google.com/forms/d/e/1FAIpQLScW5w2DtxiHuSa-VfAw837nggf7j3T8PnzYDX6aH9rxO2dKYg/viewform?embedded=true"></iframe>
+</div>
+<footer id="contact">
+</footer>
+</div></body>
+</html>TYPE html&gt;
+
